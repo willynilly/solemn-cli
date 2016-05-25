@@ -1,0 +1,39 @@
+{
+  "name": "solemn-cli",
+  "version": "1.0.0",
+  "description": "A command-line tool that detects inappropriate language in your code.",
+  "bin": {
+    "solemn": "lib/solemn-cli.js"
+  },
+  "scripts": {
+    "test": "nodeunit test/test.js"
+  },
+  "keywords": [
+    "coding",
+    "censorship",
+    "profanity",
+    "static analysis",
+    "css"
+  ],
+  "author": "Will Riley",
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^2.1.6",
+    "gulp": "^3.9.1",
+    "gulp-filter": "^4.0.0",
+    "gulp-solemn": "^1.2.2",
+    "lodash": "^4.12.0",
+    "stream-end": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willynilly/solemn-cli.git"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "devDependencies": {
+    "nodeunit": "^0.9.1"
+  },
+  "preferGlobal": true
+}
